@@ -1,2 +1,2 @@
 # Clim680_FinalProject
-Clim 680 final class project 
+Clim 680 Final Class Project 
