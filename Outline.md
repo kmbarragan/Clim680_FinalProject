@@ -27,9 +27,13 @@ I also explored the relationship between 500hPa with the Pacific North American 
 I plan to use the data sets above to conduct the following analysis:
 
 Calculate annual monthly mean, climatology and anomalies of 500hPa, and 2 meter surface temperature
+
 Calculate composites of 500hPa based on PNA phases
+
 Calculate the mean difference between composites of positive and negative phases of the PNA index with significance
+
 Calculate and compare composites with the PNA index along with an 'enhanced' PNA index
+
 Calculate the correlation map of 2 meter surface temperature and 500hPa anomalies
 
 ---
