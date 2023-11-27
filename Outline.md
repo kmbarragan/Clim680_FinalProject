@@ -23,7 +23,16 @@ I also explored the relationship between 500hPa with the a climate index, Pacifi
   - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
 ----
 ## Proposed Analysis
+I plan to use the data sets above to conduct the following analysis:
+
+Calculate annual monthly mean, climatology and anomalies of 500hPa, and 2 meter surface temperature
+Calculate composites of 500hPa based on PNA phases
+Calculate the mean difference between composites of positive and negative phases of the PNA index with significance
+Calculate and compare composites with the PNA index along with an 'enhanced' PNA index
+Calculate the correlation map of 2 meter surface temperature and 500hPa anomalies
+
 ---
 ## Function
 ---
 ## Conda Environment
+The environment.yml file is provided to show the environment used to run all the codes. 
