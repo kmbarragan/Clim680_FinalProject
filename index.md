@@ -23,7 +23,6 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
 ----
 ## Results and Codes
-
 ---
 ### Function
 ### Conda Environment
