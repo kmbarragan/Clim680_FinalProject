@@ -10,7 +10,7 @@ Here they investigated cold air outbreaks in the eastern United States and used 
 
 I choose this topic because I've have been reading scientific literature on the subject and have wanted to investigate the relationship between surface temperature and 500hPa for myself with the list of cold air outbreaks. 
 
-I also explored the relationship between 500hPa with the a climate index, Pacific North American (PNA) pattern.
+I also explored the relationship between 500hPa with the Pacific North American (PNA) pattern climate index.
 
 ----
 ## Data
