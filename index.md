@@ -13,7 +13,7 @@ I choose this topic because I've have been reading scientific literature on the 
 I also explored the relationship between 500hPa with the Pacific North American (PNA) pattern climate index.
 
 ## Data
-* NCAR Research Data Archive: ERA Interim Reanalysis- [500hPa](https://climatedataguide.ucar.edu/climate-data/era-interim)
+* NCAR Research Data Archive: ERA Interim Reanalysis- [500hPa (m<sup>2</sup> /s<sup>2</sup>) ](https://climatedataguide.ucar.edu/climate-data/era-interim)
   - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.75°x0.75°
   - Temporal Resolution: daily data taken at 0000 UTC 
