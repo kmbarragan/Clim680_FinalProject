@@ -29,3 +29,5 @@ I also explored the relationship between 500hPa with the Pacific North American 
 ### Figures
 ### Analyses and Notebooks
 ## Summary
+From doing the analysis on the datasets, ......
+I feel like I have a better understanding on how to manipulate climate datasets better. 
