@@ -14,13 +14,13 @@ I also explored the relationship between 500hPa with the a climate index, Pacifi
 ----
 ## Data
 * NCAR Research Data Archive: ERA Interim Reanalysis- [500hPa](https://climatedataguide.ucar.edu/climate-data/era-interim)
-  -Jan 1,1979 - Aug 31, 2019
-  -Spatial: 0.75°x0.75°
-  -Temporal Resolution: daily data taken at 1200 UTC 
-  -Northern Hemisphere Latitude 0-90 Longitude (-180)- (180)
+  - Jan 1,1979 - Aug 31, 2019
+  - Spatial: 0.75°x0.75°
+  - Temporal Resolution: daily data taken at 1200 UTC 
+  - Northern Hemisphere Latitude 0-90 Longitude (-180)- (180)
 * ERA
 * PNA Index
-  -The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
+  - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
 ----
 ## Proposed Analysis
 ---
