@@ -15,7 +15,7 @@ I also explored the relationship between 500hPa with the Pacific North American 
 ----
 ## Data
 * NCAR Research Data Archive: ERA Interim Reanalysis- [500hPa](https://climatedataguide.ucar.edu/climate-data/era-interim)
-  - Jan 1,1979 - Aug 31, 2019
+  - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.75°x0.75°
   - Temporal Resolution: daily data taken at 1200 UTC 
   - Northern Hemisphere Latitude 0-90 Longitude (-180)- (180)
