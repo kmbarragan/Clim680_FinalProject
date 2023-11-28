@@ -1,5 +1,4 @@
 # The Relationship Between 500hPa Geopotential Height,  Pacific North American (PNA) Pattern and Cold Air Outbreaks 
-
 ---- 
  ## Katherine Barragan
  ----
@@ -19,7 +18,7 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.75°x0.75°
   - Temporal Resolution: daily data taken at 0000 UTC 
-  - Northern Hemisphere Latitude 0-90 Longitude (-180)- (180)
+  - Northern Hemisphere Latitude (0)- (90) Longitude (-180)- (180)
 * NCAR Research Data Archive: ERA Interim Reanalysis - [2 meter temperature (K) - surface](https://climatedataguide.ucar.edu/climate-data/era-interim)
   - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.75°x0.75°
@@ -32,7 +31,7 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.25° x 0.25°
   - Temporal Resolution: Originally 4x's daily data but processed to create a daily mean
-  - North America: Latitude: 0-90 Longitude: (-180) - 0
+  - North America: Latitude: (0)- (90) Longitude: (-180)- (0)
 
 ---
 
@@ -81,5 +80,5 @@ Correlation Map between T2M and 500hPa anomalies during CAO
 
 
 ## Summary
-From doing the analysis on the datasets, ......
-I feel like I have a better understanding on how to manipulate climate datasets better. 
+From doing the analysis on the datasets, I feel I was better to understand the purpose of using 500hPa geopotential height to analyze cold air outbreaks. Although it is more likely the North American Oscillation (NAO) plays a role in the CAO's in North America, I wanted to explore it more with the PNA pattern.  
+I feel like I have a better understanding on how to manipulate climate datasets better along with calculating statistical significance using python and its packages. One of the problems that came up with the datasets was when the latitude and longitudes did not match and trying to figure out how to use the interpolate function to make sure no Nan values appeared so that a correlation map was able to be created. 
