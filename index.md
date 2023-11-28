@@ -36,6 +36,15 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - North America: Latitude: (0)- (90) Longitude: (-180)- (0)
 
 ---
+# Cold Air Outbreaks (CAO) 
+Smith et al (2019) used a set of criteria to define what is considered to be a CAO. They used surface temperature data from 20 different stations in the Eastern United States and it spans from 1948- 2016. Using they're criteria they identified 49 CAO within their time span, relevant to ERA Interim there was only about 20. Their criteria for identification was 
+ - Daily maximum and minimum temperatures required to be at least 1.25𝜎 below the 67 year daily climatological mean.
+ - The duration must be at least 5 days in which the daily maximum and minimum temperatures are at least 1.25𝜎 below the climatological mean.
+ - Requires that at least 3 of the 20 stations must simultaneously meet the prior two (2) criteria and be contiguous
+
+# Pacific North American (PNA) Pattern 
+A teleconnection pattern of air pressure anomalies at four locations over the Pacific Ocean and North America correlate with temperature anomalies across North America. It influences regional weather by affecting the strength and location of the East Asian jet stream, which leads to changes in the weather North America receives. It can be divided into two (2) phases: Postive phase and Negative phase. In positive (negative) phase there is a higher-than-normal (lower-than-normal) pressure near Hawai'i and over western US and Canada, and lower-than-normal(higher-than-normal) pressure south of Alaska and over the southeastern United States. There is also an increase in above-average (below-average) anomalies western Canada and US, and below-average (above-average) temperatures across south-central and southeastern states. During winter, there is less (more) precipitation in the Pacific Northwest and across the eastern US. 
+
 
 ## Results and Codes
 ---
