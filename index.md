@@ -67,7 +67,7 @@ Calculate Composites between 500hPa and PNA
 - [Notebook](.....)
 
 Calculate the Mean Difference between Composites with Significance
-- Doing something similar to creating a composites with 500hPa and PNA but this time indicated a "enhanced" PNA index where anything above 1 would now be positive and below -1 would be negative. All those in between 1 and -1 would be considered neutral. Trying to see if maybe more intensly ranked CAO's are linked to this "enhanced" PNA index.They are not :|
+- Doing something similar to creating a composites with 500hPa and PNA but this time indicated a "enhanced" PNA index where anything above 1 would now be positive and below -1 would be negative. All those in between 1 and -1 would be considered neutral. Trying to see if maybe more intensely ranked CAO's are linked to this "enhanced" PNA index. They are not. The ranking is also from Smith 2019.
 - Did something similar previously but now able to find the mean diffference between the positive and neutral phase and calculate the statistical significance.
 - [Notebook](:......)
 
