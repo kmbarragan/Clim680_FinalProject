@@ -26,6 +26,7 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - Northen Hemisphere Latitude: (-60)- (90) Longitude: (-180)- (180)
 * PNA Index
   - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
+  - 
 * ECMWF Reanalysis v5 (ERA5)- [2 meter temperature (K) - surface](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5)
   - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.25° x 0.25°
@@ -41,8 +42,33 @@ Created a function to be able to process the monthly climatology and 2 meter tem
 
 ### Conda Environment
 
-### Figures
 ### Analyses and Notebooks
+Monthly Mean 500hPa
+Link to notebook and describe results
+Monthly Mean to T2M
+
+Climatology by day for 500hPa
+Link to notebook and describe results
+Climatology by day for T2M
+
+Anomalies for 500hPa
+Link to notebook and describe results
+Anomalies for T2M
+Link to notebook and describe results
+
+Calculate Composites between 500hPa and PNA
+Link to notebook and describe results My Notebook
+
+Calculate the Mean Difference between Composites with Significance
+Link to notebook and describe results
+
+
+Correlation between T2M and 500hPa anomalies during CAO 
+
+Link to notebook and describe results
+
+
+
 ## Summary
 From doing the analysis on the datasets, ......
 I feel like I have a better understanding on how to manipulate climate datasets better. 
