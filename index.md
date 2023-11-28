@@ -44,18 +44,24 @@ Created a function to be able to process the monthly climatology and 2 meter tem
 
 ### Analyses and Notebooks
 Monthly Mean 500hPa
-Link to notebook and describe results
-Monthly Mean to T2M
+- Calculated the monthly mean for the 2 meter temperature. Started by resampling the daily data to create a new dataset with just months then with the groupby function created a monthly mean and plotted in a multipanel plot display.
+- [Notebook](....)
 
-Climatology by day for 500hPa
-Link to notebook and describe results
-Climatology by day for T2M
+Monthly Mean to T2M 
+- Calculated the monthly mean for the 2 meter temperature. Started by resampling the daily data to create a new dataset with just months then with the groupby function created a monthly mean and plotted in a multipanel plot display.
+- [Notebook](.....)
 
-Anomalies for 500hPa
-Link to notebook and describe results
-Anomalies for T2M
-Link to notebook and describe results
+Climatology by day along with Anomalies for 500hPa
+- Calculated the the climatology using the groupby mean function using day of the year. From there created anomalies by subtracting the day of year groupby from the climatology. Then using a list of predefined Cold Air Outbreaks (CAO's) used then to selected those anomalies and plotted them in a multipanel plot based on the month during the winter season. At the end concatenated the list into one dataset and plotted all the CAO's all together.
+- Some appear more intesne than others and when comparing with the ranking provided by Smith 2019 some seem not as extreme as ranked using the 500hPA
+- [Notebook](....)
 
+Climatology by day along with Anomalies for T2M
+- Calculated the the climatology using the groupby mean function using day of the year. From there created anomalies by subtracting the day of year groupby from the climatology. Then using a list of predefined Cold Air Outbreaks (CAO's) used then to selected those anomalies and plotted during the winter season with all the CAO's in one plot. More or less to compare with the 500hPa
+- With the temperature the intensity is really displayed better. Something happens with Dec 13, 1985. Doubled check the data and it just seems the values are higher for some reason. From the used the ERA5 dataset to do a similar process as initially and found out what it should about look like with ther ERA Interim dataset. All the other plots seem to match between the ERA Interim and ERA5 except Jan 6 1982. Again went through the climatology and anomalies and it seems when creating the anomalies for that day NaN's appear everywhere. 
+- [Notebook to ERA Interim](....)
+- [Notebook to ERA 5] (......)
+  
 Calculate Composites between 500hPa and PNA
 Link to notebook and describe results My Notebook
 
@@ -63,8 +69,7 @@ Calculate the Mean Difference between Composites with Significance
 Link to notebook and describe results
 
 
-Correlation between T2M and 500hPa anomalies during CAO 
-
+Correlation Map between T2M and 500hPa anomalies during CAO 
 Link to notebook and describe results
 
 
