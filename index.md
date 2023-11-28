@@ -54,7 +54,7 @@ Monthly Mean to T2M
 Climatology by day along with Anomalies for 500hPa
 - Calculated the the climatology using the groupby mean function using day of the year. From there created anomalies by subtracting the day of year groupby from the climatology. Then using a list of predefined Cold Air Outbreaks (CAO's) used then to selected those anomalies and plotted them in a multipanel plot based on the month during the winter season. At the end concatenated the list into one dataset and plotted all the CAO's all together.
 - Some appear more intesne than others and when comparing with the ranking provided by Smith 2019 some seem not as extreme as ranked using the 500hPA
-- [Notebook](....)
+- [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_Anomalies.ipynb)
 
 Climatology by day along with Anomalies for T2M
 - Calculated the the climatology using the groupby mean function using day of the year. From there created anomalies by subtracting the day of year groupby from the climatology. Then using a list of predefined Cold Air Outbreaks (CAO's) used then to selected those anomalies and plotted during the winter season with all the CAO's in one plot. More or less to compare with the 500hPa
