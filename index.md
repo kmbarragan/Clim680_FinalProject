@@ -1,9 +1,16 @@
 # The Relationship Between 500hPa Geopotential Height,  Pacific North American (PNA) Pattern and Cold Air Outbreaks 
+<<<<<<< HEAD
 ---
 ## Katherine Barragan
 ---
 
 ## Introduction
+=======
+---- 
+ ## Katherine Barragan
+ ----
+ ## Introduction
+>>>>>>> ed0284f9504c6378262c1f88209aeb2a3f7d4d3f
 The goal of my CLIM 680 project is to investigate the relationship between the 500hPa geopotential height and 2 meter surface temperature during cold air outbreaks in North America.
 
 The list of cold air outbreaks is from a paper by Erik T. Smith and Scott C. Sheridan from 2019- "The characteristics of extreme cold events and cold air outbreaks in the eastern United States"
@@ -26,6 +33,7 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - Northen Hemisphere Latitude: (-60)- (90) Longitude: (-180)- (180)
 * PNA Index
   - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
+<<<<<<< HEAD
 * ECMWF Reanalysis v5 (ERA5)- [2 meter temperature (K) - surface](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5)
   - Jan 1, 1979 - Aug 31, 2019
   - Spatial: 0.25° x 0.25°
@@ -34,6 +42,9 @@ I also explored the relationship between 500hPa with the Pacific North American 
 
 ---
 
+=======
+----
+>>>>>>> ed0284f9504c6378262c1f88209aeb2a3f7d4d3f
 ## Results and Codes
 ---
 ### Function
