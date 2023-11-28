@@ -26,13 +26,21 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - Northen Hemisphere Latitude: (-60)- (90) Longitude: (-180)- (180)
 * PNA Index
   - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
+* ECMWF Reanalysis v5 (ERA5)- [2 meter temperature (K) - surface](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5)
+  - Jan 1, 1979 - Aug 31, 2019
+  - Spatial: 0.25° x 0.25°
+  - Temporal Resolution: Originally 4x's daily data but processed to create a daily mean
+  - North America: Latitude: 0-90 Longitude: (-180) - 0
 
 ---
 
 ## Results and Codes
 ---
 ### Function
+Created a function to be able to process the monthly climatology and 2 meter temperature anomalies
+
 ### Conda Environment
+
 ### Figures
 ### Analyses and Notebooks
 ## Summary
