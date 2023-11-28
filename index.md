@@ -1,11 +1,10 @@
 # The Relationship Between 500hPa Geopotential Height,  Pacific North American (PNA) Pattern and Cold Air Outbreaks
 
 ---- 
-
- # Katherine Barragan
+## Katherine Barragan
  ----
  
- ## Introduction
+## Introduction
  
 The goal of my CLIM 680 project is to investigate the relationship between the 500hPa geopotential height and 2 meter surface temperature during cold air outbreaks in North America.
 
