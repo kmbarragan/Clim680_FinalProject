@@ -26,11 +26,17 @@ I also explored the relationship between 500hPa with the Pacific North American 
   - Northen Hemisphere Latitude: (-60)- (90) Longitude: (-180)- (180)
 * PNA Index
   - The [PNA Index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii.table) is a monthly index, provided by NOAA/ESRL/PSL. It is located in /home/pdirmeye/classes/clim680_2022/CLIM_INDICES/ or on the NOAA Climate Prediciton Center Website.
+* ECMWF Reanalysis v5 (ERA5)- [2 meter temperature (K) - surface](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5)
+  - Jan 1, 1979 - Aug 31, 2019
+  - Spatial: 0.25° x 0.25°
+  - Temporal Resolution: Originally 4x's daily data but processed to create a daily mean
+  - North America: Latitude: 0-90 Longitude: (-180) - 0
+
 ----
 ## Proposed Analysis
 I plan to use the data sets above to conduct the following analysis:
 
-* Calculate annual monthly mean, day of the year climatology and anomalies of 500hPa geopotential height and 2 meter surface temperature
+* Calculate monthly mean, day of the year climatology and anomalies of 500hPa geopotential height and 2 meter surface temperature
 
 * Calculate composites of 500hPa based on PNA phases
 
@@ -42,6 +48,7 @@ I plan to use the data sets above to conduct the following analysis:
 
 ---
 ## Function
+I created a function to be able to create the day of the year climatology and to be able to create the anomalies for the 2 meter temperature. 
 ---
 ## Conda Environment
 The environment.yml file is provided to show the environment used to run all the codes. 
