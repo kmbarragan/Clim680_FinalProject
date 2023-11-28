@@ -63,15 +63,19 @@ Climatology by day along with Anomalies for T2M
 - [Notebook to ERA 5] (......)
   
 Calculate Composites between 500hPa and PNA
-Link to notebook and describe results My Notebook
+- Created a composite the 500hPa geopotential height and PNA index. After opening the PNA index, divided it into the positive phase and negative phase. From there with the 500hPa created anomalies similar to before and selected the 20 CAO's from Smith 2019. From there created the composite between the positive and negative phase and 500hPa. It appears more CAO's happen during the positve phase of the PNA index even appearing similar to the positive phase in the 500hPa
+- [Notebook](.....)
 
 Calculate the Mean Difference between Composites with Significance
-Link to notebook and describe results
-
+- Doing something similar to creating a composites with 500hPa and PNA but this time indicated a "enhanced" PNA index where anything above 1 would now be positive and below -1 would be negative. All those in between 1 and -1 would be considered neutral. Trying to see if maybe more intensly ranked CAO's are linked to this "enhanced" PNA index.They are not :|
+- Did something similar previously but now able to find the mean diffference between the positive and neutral phase and calculate the statistical significance.
+- [Notebook](:......)
 
 Correlation Map between T2M and 500hPa anomalies during CAO 
-Link to notebook and describe results
-
+- Using many of the techinques from earlier now to create a correltion map between the 2 meter temperature and 500hPa maps during the pre-defined list of CAO's.
+- After creating the anomalies for both datasets, created a correlation map and plotted it. From there used the scipy package to be able see the statistical significance between the two maps. From there created double check to make sure the significane was genuine.
+- The last plot shows the significane with the majority of it over land in North America during these outbreaks. 
+- [Notebook](.....)
 
 
 ## Summary
