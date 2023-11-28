@@ -30,7 +30,7 @@ I also explored the relationship between 500hPa with the Pacific North American 
 ## Proposed Analysis
 I plan to use the data sets above to conduct the following analysis:
 
-* Calculate annual monthly mean, climatology and anomalies of 500hPa geopotential height
+* Calculate annual monthly mean, day of the year climatology and anomalies of 500hPa geopotential height and 2 meter surface temperature
 
 * Calculate composites of 500hPa based on PNA phases
 
