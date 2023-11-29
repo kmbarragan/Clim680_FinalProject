@@ -106,7 +106,7 @@ _Figure 8: Show is the ERA Interim 2 meter temperature used to create anomalies 
 
 
 <img width="652" alt="Screen Shot 2023-11-28 at 11 12 22 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/ee279eeb-6ae2-40c1-b745-cf8560fce16e">
-_Figure 9: Shown is the 2 meter temperature using the ERA5 data. It was used to explore what was going on with ERA Interim anomaly from Dec 12, 1986 (Figure #) Nan values appear on the CAO 4 when creating the climatology which results in blank map._ 
+_Figure 9: Shown is the 2 meter temperature using the ERA5 data. It was used to explore what was going on with ERA Interim anomaly from Dec 12, 1986 (Figure 8) Nan values appear on the CAO 4 when creating the climatology which results in blank map._ 
 
 - [Notebook to ERA 5](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_ERA5_Climatology.ipynb)
   
