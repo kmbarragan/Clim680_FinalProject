@@ -113,7 +113,9 @@ _Figure 9: Shown is the 2 meter temperature using the ERA5 data. It was used to 
 Calculate Composites between 500hPa and PNA
 - Created a composite the 500hPa geopotential height and PNA index. After opening the PNA index, divided it into the positive phase and negative phase. From there with the 500hPa created anomalies similar to before and selected the 20 CAO's from Smith 2019. From there created the composite between the positive and negative phase and 500hPa. It appears more CAO's happen during the positive phase of the PNA index even appearing similar to the positive phase in the 500hPa
 
+<p align="center">
  <img width="321" alt="Screen Shot 2023-11-28 at 10 54 04 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/21ae590a-8b66-4572-8a91-5ec62cc42b62">
+ </p>
 _Figure 10: Created a composite of the selected dates anomalies against the monthly PNA index._
 
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_PNA_Composite.ipynb)
@@ -145,7 +147,7 @@ Correlation Map between T2M and 500hPa anomalies during CAO
 _Figure 14: Shown is the correlation map between 2 meter temperature and the 500hPa Geopotential height during the CAO list._
 
 <img width="621" alt="Screen Shot 2023-11-28 at 10 27 45 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/94e421fc-a459-40a7-bf6b-331c0b5350d2">
-_Figure 15: Shown is the correlation map with statistical significance between 2 meter temperature and the 500hPa Geopotential height during the CAO list. Should have used overall 2 meter temperature and 500hPa anomalies during say winter time. _
+_Figure 15: Shown is the correlation map with statistical significance between 2 meter temperature and the 500hPa Geopotential height during the CAO list. Should have used overall 2 meter temperature and 500hPa anomalies during say winter time._
 
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_correlationmap.ipynb)
 
