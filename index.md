@@ -58,7 +58,7 @@ Created a function to be able to process the monthly climatology and 2 meter tem
 [Environment](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/environment.yml)
 
 ### Analyses and Notebooks
-Monthly Mean 500hPa
+**Monthly Mean 500hPa** 
 - Calculated the monthly mean for the 2 meter temperature. Started by resampling the daily data to create a new dataset with just months then with the groupby function created a monthly mean and plotted in a multipanel plot display.
 
 <img width="662" alt="Screen Shot 2023-11-28 at 11 12 39 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/7fac5589-1981-4218-8306-1b7d1486d05f">
@@ -66,7 +66,8 @@ _Figure 2: Shown is the monthly mean from the daily ERA Interim 500hPa Geopotent
 
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_500_MonthlyMean.ipynb)
 
-Monthly Mean to T2M 
+
+**Monthly Mean to T2M** 
 - Calculated the monthly mean for the 2 meter temperature. Started by resampling the daily data to create a new dataset with just months then with the groupby function created a monthly mean and plotted in a multipanel plot display.
 
   <img width="637" alt="Screen Shot 2023-11-28 at 11 13 27 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/baa6c07c-0029-4d9f-bc2f-f8e72edd4af1">
@@ -74,7 +75,8 @@ _Figure 3: Using the ERA Interim 2 meter temperatured daily data to create a mon
 
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_t2m_MonthlyMean.ipynb)
 
-Climatology by day along with Anomalies for 500hPa
+
+**Climatology by day along with Anomalies for 500hPa** 
 - Calculated the the climatology using the groupby mean function using day of the year. From there created anomalies by subtracting the day of year groupby from the climatology. Then using a list of predefined Cold Air Outbreaks (CAO's) used then to selected those anomalies and plotted them in a multipanel plot based on the month during the winter season. At the end concatenated the list into one dataset and plotted all the CAO's all together.
 - Some appear more intense than others and when comparing with the ranking provided by Smith 2019 some seem not as extreme as ranked using the 500hPA
 
@@ -82,12 +84,15 @@ Climatology by day along with Anomalies for 500hPa
 _Figure 4: Shown is the December CAO anomalies of the 500hPa Geopotential height. After creating a daily climatology, the anomalies were calculated then selected dates in December were plotted. List of CAO's based on Smith 2019._
 
 
+
 <img width="656" alt="Screen Shot 2023-11-28 at 10 48 24 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/aef99ca1-6488-4f89-b4a8-5d38882a7042">
 _Figure 5: Shown is the January CAO anomalies of the 500hPa Geopotential height. After creating a daily climatology, the anomalies were calculated then selected dates in December were plotted. List of CAO's based on Smith 2019._
 
 
+
 <img width="652" alt="Screen Shot 2023-11-28 at 10 48 43 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/b2808490-4865-4ed7-aee3-b13d703024ed">
 _Figure 6: Shown is the February CAO anomalies of the 500hPa Geopotential height. After creating a daily climatology, the anomalies were calculated then selected dates in December were plotted. List of CAO's based on Smith 2019._
+
 
 
 <img width="642" alt="Screen Shot 2023-11-28 at 10 53 25 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/3076e542-1e37-487a-ae4f-468f6705fd63">
@@ -95,7 +100,8 @@ _Figure 7: Combining all three months to create a list of the collected CAO's. U
 
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_Anomalies.ipynb)
 
-Climatology by day along with Anomalies for T2M
+
+**Climatology by day along with Anomalies for T2M** 
 - Calculated the the climatology using the groupby mean function using day of the year. From there created anomalies by subtracting the day of year groupby from the climatology. Then using a list of predefined Cold Air Outbreaks (CAO's) used then to selected those anomalies and plotted during the winter season with all the CAO's in one plot. More or less to compare with the 500hPa
 - With the temperature the intensity is really displayed better. Something happens with Dec 13, 1985. Doubled check the data and it just seems the values are higher for some reason. From the used the ERA5 dataset to do a similar process as initially and found out what it should about look like with ther ERA Interim dataset. All the other plots seem to match between the ERA Interim and ERA5 except Jan 6 1982. Again went through the climatology and anomalies and it seems when creating the anomalies for that day NaN's appear everywhere.
   
@@ -109,8 +115,9 @@ _Figure 8: Show is the ERA Interim 2 meter temperature used to create anomalies 
 _Figure 9: Shown is the 2 meter temperature using the ERA5 data. It was used to explore what was going on with ERA Interim anomaly from Dec 12, 1986 (Figure 8) Nan values appear on the CAO 4 when creating the climatology which results in blank map._ 
 
 - [Notebook to ERA 5](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_ERA5_Climatology.ipynb)
+
   
-Calculate Composites between 500hPa and PNA
+**Calculate Composites between 500hPa and PNA**
 - Created a composite the 500hPa geopotential height and PNA index. After opening the PNA index, divided it into the positive phase and negative phase. From there with the 500hPa created anomalies similar to before and selected the 20 CAO's from Smith 2019. From there created the composite between the positive and negative phase and 500hPa. It appears more CAO's happen during the positive phase of the PNA index even appearing similar to the positive phase in the 500hPa
 
 <p align="center">
@@ -121,24 +128,31 @@ _Figure 10: Created a composite of the selected dates anomalies against the mont
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_PNA_Composite.ipynb)
 
 
-Calculate the Mean Difference between Composites with Significance
+
+**Calculate the Mean Difference between Composites with Significance**
 - Doing something similar to creating a composites with 500hPa and PNA but this time indicated a "enhanced" PNA index where anything above 1 would now be positive and below -1 would be negative. All those in between 1 and -1 would be considered neutral. Trying to see if maybe more intensely ranked CAO's are linked to this "enhanced" PNA index. They are not. The ranking is also from Smith 2019.
 - Did something similar previously but now able to find the mean diffference between the positive and neutral phase and calculate the statistical significance.
-  
-<img width="352" alt="Screen Shot 2023-11-28 at 11 18 16 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/e899f6e3-b989-4efe-a5d8-4e5219321134">
+
+<p align="center">
+ <img width="352" alt="Screen Shot 2023-11-28 at 11 18 16 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/e899f6e3-b989-4efe-a5d8-4e5219321134">
+</p>
 _Figure 11: Shown is the composite of the 500hPa geopotential height and the "enhanced" PNA index to determine if CAO's occur more often during an "enhanced" phase. It unfortunately does not. More often it lands in a "neutral" phase with the "enhanced" positive phase coming in second._
 
 
-<img width="275" alt="Screen Shot 2023-11-28 at 11 18 25 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/6882dbe1-31f8-48f7-9f7f-5b636a392ec6">
+<p align="center">
+ <img width="275" alt="Screen Shot 2023-11-28 at 11 18 25 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/6882dbe1-31f8-48f7-9f7f-5b636a392ec6">
+</p>
 _Figure 12: Following prior image, created a mean difference composite plot between the "ehanced" positive and negative phase against the "neutral" phase._
 
-
-<img width="363" alt="Screen Shot 2023-11-28 at 11 18 32 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/56a83f4a-8191-4d10-bdfe-94c8f3703778">
+<p align="center">
+ <img width="363" alt="Screen Shot 2023-11-28 at 11 18 32 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/56a83f4a-8191-4d10-bdfe-94c8f3703778">
+</p>
 _Figure 13: Shown is the statistical significance between the composite difference of the "enhanced" positive phase and "neutral". Since it is using the few CAO's availabile might not have enough values to create a good correlation between the two._
   
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/EnhancedPNA.ipynb)
 
-Correlation Map between T2M and 500hPa anomalies during CAO 
+
+**Correlation Map between T2M and 500hPa anomalies during CAO**
 - Using many of the techinques from earlier now to create a correltion map between the 2 meter temperature and 500hPa maps during the pre-defined list of CAO's.
 - After creating the anomalies for both datasets, created a correlation map and plotted it. From there used the scipy package to be able see the statistical significance between the two maps. From there created double check to make sure the significane was genuine.
 - The last plot shows the significane with the majority of it over land in North America during these outbreaks.
