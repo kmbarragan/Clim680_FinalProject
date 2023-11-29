@@ -87,7 +87,10 @@ Calculate the Mean Difference between Composites with Significance
 Correlation Map between T2M and 500hPa anomalies during CAO 
 - Using many of the techinques from earlier now to create a correltion map between the 2 meter temperature and 500hPa maps during the pre-defined list of CAO's.
 - After creating the anomalies for both datasets, created a correlation map and plotted it. From there used the scipy package to be able see the statistical significance between the two maps. From there created double check to make sure the significane was genuine.
-- The last plot shows the significane with the majority of it over land in North America during these outbreaks. 
+- The last plot shows the significane with the majority of it over land in North America during these outbreaks.
+
+ <img width="621" alt="Screen Shot 2023-11-28 at 10 27 45 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/e292360a-313b-4c86-bb49-b9bae5ace4ef">
+
 - [Notebook](https://github.com/kmbarragan/Clim680_FinalProject/blob/main/CAO_correlationmap.ipynb)
 
 
