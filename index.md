@@ -46,6 +46,8 @@ Smith et al (2019) used a set of criteria to define what is considered to be a C
 A teleconnection pattern of air pressure anomalies at four locations over the Pacific Ocean and North America correlate with temperature anomalies across North America. It influences regional weather by affecting the strength and location of the East Asian jet stream, which leads to changes in the weather North America receives. It can be divided into two (2) phases: Postive phase and Negative phase. In positive (negative) phase there is a higher-than-normal (lower-than-normal) pressure near Hawai'i and over western US and Canada, and lower-than-normal(higher-than-normal) pressure south of Alaska and over the southeastern United States. There is also an increase in above-average (below-average) anomalies western Canada and US, and below-average (above-average) temperatures across south-central and southeastern states. During winter, there is less (more) precipitation in the Pacific Northwest and across the eastern US. 
 [(NOAA)](https://www.climate.gov/news-features/understanding-climate/climate-variability-pacific-north-american-pattern)
 
+<img width="552" alt="Screen Shot 2023-11-28 at 11 23 44 PM" src="https://github.com/kmbarragan/Clim680_FinalProject/assets/142943607/aa0d9f3c-21e4-4eff-a7c6-b1180a6c5ca1">
+_Figure 1: Shown is the typical positive and negative phases of the PNA pattern at the 500-mb height. Taken from [NOAA's Climate Variability Website](https://www.climate.gov/news-features/understanding-climate/climate-variability-pacific-north-american-pattern)_
 
 ## Results and Codes
 ---
