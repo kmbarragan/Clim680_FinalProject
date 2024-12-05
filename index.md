@@ -169,3 +169,4 @@ _Figure 15: Shown is the correlation map with statistical significance between 2
 ## Summary
 From doing the analysis on the datasets, I feel I was better to understand the purpose of using 500hPa geopotential height to analyze cold air outbreaks. Although it is more likely the North American Oscillation (NAO) plays a role in the CAO's in North America, I wanted to explore it more with the PNA pattern.  
 I feel like I have a better understanding on how to manipulate climate datasets better along with calculating statistical significance using python and its packages. One of the problems that came up with the datasets was when the latitude and longitudes did not match and trying to figure out how to use the interpolate function to make sure no Nan values appeared so that a correlation map was able to be created. 
+<img width="205" alt="Screen Shot 2024-12-04 at 7 52 43 PM" src="https://github.com/user-attachments/assets/1dd6c2ff-ef93-4264-86b3-2b5d05c2234c">
